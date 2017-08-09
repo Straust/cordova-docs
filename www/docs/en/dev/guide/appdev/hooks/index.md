@@ -30,8 +30,8 @@ Cordova Hooks represent special scripts which could be added by application and
 plugin developers or even by your own build system  to customize cordova commands.
 
 Cordova hooks allow you to perform special activities around cordova commands. For example,
-you may have a custom tool that checks for code formatting in your javascript file. And, you
-would like to run this tool before every build. In such a case, you could use a
+you may have a custom tool that checks for code formatting in your javascript file and you
+would like to run this tool before every build, in such a case, you could use a
 'before_build' hook and instruct the cordova run time to run the custom tool to be invoked
 before every build.
 
